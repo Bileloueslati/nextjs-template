@@ -1,5 +1,5 @@
 import { Suspense } from 'react'
-import './main.css'
+import './main.scss'
 import Loading from './loading'
 import Header from '@/components/header'
 
