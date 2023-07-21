@@ -1,5 +1,5 @@
-import CircularProgress from "@mui/material/CircularProgress";
+import CircularProgress from '@mui/material/CircularProgress'
 
 export default function Loading() {
-  return <CircularProgress />;
+  return <CircularProgress />
 }

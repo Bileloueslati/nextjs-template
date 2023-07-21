@@ -1,13 +1,13 @@
+import { Button, Stack, Typography } from '@mui/material'
 import Link from 'next/link'
- 
+
 export default function NotFound() {
   return (
-    <div>
-      <h2>Not Found</h2>
-      <p>Could not find requested resource</p>
-      <p>
-        View <Link href="/">Back to HomePage</Link>
-      </p>
-    </div>
+    <Stack alignItems="center" justifyContent="center" height="100vh">
+      <Typography variant="h2">Page not found</Typography>
+      <Link href="/" passHref legacyBehavior>
+        <Button>Back to homepage</Button>
+      </Link>
+    </Stack>
   )
 }
